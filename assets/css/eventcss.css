@@ -1,0 +1,22 @@
+.element.style {}
+
+@media (max-width: 991px) {
+    .events_area {
+        padding: 70px 0;
+    }
+}
+
+.events_area {
+    padding: 130px 0 100px;
+    background: #002347;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
