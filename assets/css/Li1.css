@@ -14,37 +14,10 @@
     height: 100vh;
 } */
 
-.syllabus-li {
-    width: 90% !important;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    margin: 1.5em;
-    cursor: pointer;
-    padding: 1em;
-    /* background: #002347; */
-    position: relative;
-    color: white;
-    text-align: center;
-    border-radius: 5px;
-}
 
-.syllabus-li::before,
-.syllabus-li::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    border-radius: 5px;
-    width: 105%;
-    transition: all .4s;
-}
-
-.syllabus-li::before {
-    left: 0%;
-    height: 130%;
-    background: linear-gradient(to right, #002347, #002347);
-}
-
-.syllabus-li:hover::before {
+.syllabus-li:hover{
     transform: translateX(-2.5%);
+}
+.syllabus-li{
+    margin-top: 1%;
 }
