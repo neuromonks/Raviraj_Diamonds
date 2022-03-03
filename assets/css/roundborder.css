@@ -1,0 +1,23 @@
+.top_left {
+    /* border: 2px solid red; */
+    padding: 10px;
+    border-top-left-radius: 25px;
+}
+
+
+/* .top_right {
+    border: 2px solid red;
+    padding: 10px;
+    border-top-left-radius: 50px 20px;
+  } */
+
+.top_right {
+    /* border: 2px solid red; */
+    border-top-right-radius: 25px;
+}
+
+
+/* #example2 {
+    border: 2px solid red;
+    border-top-right-radius: 50px 20px;
+  } */
